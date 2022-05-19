@@ -1,14 +1,25 @@
 body {
-    text-align:center;
-    background-color: pink;
+    background-color: gray;
 }
-h1 {
-    color: black;
+header {
+    max-width: 100px;
+
 }
-h2{
-    text-align: center;
-    color: white;
+* {
+    margin: 0;
+    padding: 0;
 }
-h3 {
-    text-align: center;
+.sample {
+    width: 100px;
+    height: 200px;
+    display: inline;
+
+}
+.sample img {
+    border-radius: 50%;
+    border: 20px solid rgb(65, 61, 61);
+    margin: 60px;
+    height: 260px;
+    width: 260px;
+    background-color: gray;
 }

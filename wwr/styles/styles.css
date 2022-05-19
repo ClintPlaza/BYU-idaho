@@ -2,67 +2,162 @@
     max-width: 1600px;
     display: block;
 }
+
 #background {
     height: 725px;
     background-color: blanchedalmond;
 }
-body {
-    background-color: lightblue;
-}
-header {
-    background-color: rgba(20, 30, 13, .7);
-}
-nav a:hover  {
-    background-color: black;
-    color:#d9c2a3;
-    text-align: center;
-    text-decoration: none;
-}
-.book, .join {
-    background-color: white;
 
+#logo_link {
+    padding-top: 5px;
 }
+
+body {
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;   
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 75px;
+    color: rgb(102, 0, 0);
+}
+
+h2 {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    background-color: rgb(102, 0, 0);
+}
+
+nav a:hover  {
+    color:#d3c8bb;
+    background-color: black;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 30px;
+}
+
+.book, .join {
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: rgb(102, 0, 0);
+    color: white;
+}
+
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
+
 .botton-box {
     text-align: center;
 }
+
 main section {
     text-align: center;
+}
+main section img {
+    box-sizing: border-box;
 }
 .msg, .msg h4 {
     background-color: rgb(139, 192, 139);
     color: rgb(77, 37, 37);
 }
+
 footer {
-    background-color: rgb(139, 192, 139);
-    color:rgb(77, 37, 37)
-}
-.home-title {
-    background-color: white;
+    background-color: rgb(102, 0, 0);
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
-h4  {
-    background-color: cornflowerblue;
+footer .social img {
+    padding-top: 15px;
 }
-.book, .join {
-    background-color: aqua;
-    text-decoration: none;
+
+.home-title {
+    background-color: white;
+    margin-top: 50px;
 }
+
+h3 {
+    color:white;
+    font-family: cursive;
+}
+h3 a {
+    color: white;
+}
+h3 a:hover {
+    color: black;
+}
+
 footer a {
     text-decoration: none;
 }
-.book:hover, .join:hover, footer a:hover {
-    background: black;
-    color:rgb(139, 192, 139)
+
+.book:hover {
+    color: black; 
 }
+
+.join:hover {
+    color: black;
+}
+
 .logo, .icon {
     width: 80px;
 }
+
+.icon {
+    padding: 10px;
+}
+
 #hero-img {
     width: 100%;
 }
+
+.home-title {
+    font-family:'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+}
+
+.msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg p {
+    padding-bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px;
+}
+.card-img {
+    border: 10px solid rgb(102, 0, 0);
+}
+
+.mountains {
+    margin: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 0px;
+    margin-right: 25px;
+}
+
 
 
 
