@@ -1,0 +1,13 @@
+.Home-grid { 
+    display: grid;
+    grid-template-columns: 200px 200px;
+    padding: 10px;
+}
+.cherry-text{
+    background-color: rgb(226, 172, 226);
+    border: 1px solid black;
+    padding: 2px;
+    font-size: 30px;
+    text-align: center;
+
+}
