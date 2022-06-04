@@ -1,6 +1,6 @@
 #content {
-    max-width: 1600px;
-    display: block;
+    max-width: 1800px;
+    margin: 0 auto;
 }
 
 #background {
@@ -183,7 +183,7 @@ footer a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .rivers-card, .camping-card, .rapids-card {
-    margin: 200px;
+    margin: 200px 0;
 }
 .card-img {
     border: 10px solid rgb(102, 0, 0);
@@ -203,7 +203,7 @@ footer a {
 }
 .main, .home-grid {
     display: grid;
-    grid-template-columns: 10fr;
+    grid-template-columns: repeat(10, 1fr);
 }
 .card-img, .mountains {
     width: 100%;
