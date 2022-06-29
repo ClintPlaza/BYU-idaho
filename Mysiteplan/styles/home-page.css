@@ -1,0 +1,119 @@
+#content {
+    max-width: 1800px;
+    margin: 0 auto;
+    
+}
+
+#background {
+    height: 725px;
+    background-color: rgba(105, 0, 0, 0.884);
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Titan One' Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    text-align: center;
+    
+
+}
+h1 {
+    font: 'Titan One' Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin: 30px;
+    border-radius: 10px; 
+    background-color: rgba(105, 0, 0, 0.884);
+    padding: 5px;
+    margin-top: 100px;
+    width: 400px;
+    border: black solid;
+}
+.section  {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 0 auto;
+}
+.section img {
+    border:  10px black solid;
+    box-shadow: 5px 5px 10px #641111;
+}
+h2 {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    background-color: rgb(102, 0, 0);
+    display: grid;
+    grid-template-columns: 150px auto;
+    transition: all ease 0.5s;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+nav a:hover  {
+    color: black;
+    background-color: #c2c2c785;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: left;
+    padding: 30px;
+    font-family: 'Titan One' cursive;
+}
+
+
+footer {
+    background-color: rgb(102, 0, 0);
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.logo {
+    width: 80px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+
+h3 {
+    color:white;
+    font-family: cursive;
+}
+h3 a {
+    color: white;
+}
+h3 a:hover {
+    color: black;
+}
+
+
+
+
+
