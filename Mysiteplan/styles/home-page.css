@@ -22,6 +22,7 @@ body {
     font-family: 'Titan One' Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 22px;
     text-align: center;
+    background-color: #554e4e;
     
 
 }
@@ -64,7 +65,7 @@ header {
     background-color: rgb(102, 0, 0);
     display: grid;
     grid-template-columns: 150px auto;
-    transition: all ease 0.5s;
+    
 }
 
 nav {
@@ -103,6 +104,8 @@ footer a {
 
 .logo {
     width: 80px;
+    
+
 }
 footer .social img {
     padding-top: 15px;
