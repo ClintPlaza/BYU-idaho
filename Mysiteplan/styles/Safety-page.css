@@ -43,12 +43,7 @@ h1 {
     gap: 2em;
     padding-top: 1em;
 }
-img {
-    width: 0 auto;
-    margin-top: 30px;
-    border: 5px rgb(105, 0, 0, 0.884) solid;
-    
-}
+
 p {
     padding-top: 3em;
 }
@@ -125,6 +120,10 @@ img {vertical-align: middle;}
     margin: auto;
     margin-top: 3%;
     
+}
+.mySlides img {
+    border:  10px black solid;
+    box-shadow: 5px 5px 10px #641111;
 }
 
 
